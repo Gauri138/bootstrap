@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Amora | E-Commerce Website</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+<!-- header section -->
+
+      
+<nav class="navbar navbar-expand-lg  bg-custom">
+  <a class="navbar-brand" href="#"><image src = "myshop.png"> Amora</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i>Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-bag-check"></i>Shop</a>
+      </li>
+
+
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bi bi-bookmark-fill"></i>Category
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Furniture</a>
+          <a class="dropdown-item" href="#">Crockeries</a>
+          <a class="dropdown-item" href="#">Electronics</a>
+        </div>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="#"></i>About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-telephone-fill"></i>Contact</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <button class="btn btn-success"data-target="#registermodal" data-toggle="modal"> <i class="bi bi-person-add"></i>Register </button>  &nbsp;&nbsp;
+      <button class="btn btn-success" data-target="#loginmodal" data-toggle="modal"><i class="bi bi-box-arrow-in-right"></i>Login </button>
+    </span>
+  </div>
+</nav>
+<!-- end of header section-->
+
+
+
+<!-- hero section -->
+
+<div class="jumbotron bg-custom">
+     <div class="row justify-content-around  align-item-centre">
+            <div>
+                <h1>Amora shopping !  
+                New Year Offer</h1>
+                <h2>Check Category - <span id="changetext"></span> </h2>
+                <p>Amora has started two new
+                 initiatives for sellers in India:
+                  the ‘Self Service Registration (SSR)’ and ‘Amora Easy Ship’</p>
+              <button class="btn btn-success">Shop Now </button>
+            </div>
+           
+          <div>
+                <img src="img1.jpg">
+
+          </div>
+       </div>
+</div>
+
+
+
+<!-- Rating section -->
+<div class="container" id="rating">
+  <h2> Our <span> Rating </span> </h2> 
+   <hr width="250px" class="bg-danger"></hr>
+    <div class="row text-centre my-5">
+      <div class="col-md-3">
+        <div class="card">
+         <div class="card-body">
+            <img src="fb.jpj.jpg">"
+         </div>
+        <div class="card-footer bg-info text-light">
+             <h6> Rating 4.9 <h6>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-half"></i>
+
+         </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+            <img src="g.jpj.jpg">
+        </div>
+        <div class="card-footer bg-info text-light"> 
+            <h6> Rating 4.5 <h6>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-half"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body"> 
+            <img src="insta.jpg">
+        </div>
+        <div class="card-footer bg-info text-light"> 
+            <h6> Rating 4.0 <h6>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of rating section -->
+
+
+
+<!-- Product Section -->
+<div class="container">
+  <h2> Our <span> Product </span> </h2> 
+   <hr width="250px" class="bg-danger"></hr>
+  <div class="row">
+
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="hoodie.jpg" class="img-fluid">
+
+          <div class="text-centre">
+               <h3> Shirt 1 </h3>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+          </div>
+
+          <div>
+            <span id="price"> $100 </span>
+            <span id="addicon"> <img src="add.jpg"> </span>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+    
+
+ 
+< 
+
+<!-- end of product section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Register Modal -->
+
+<div class="modal" id="registermodal">
+     <div class= "modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header"> <h3> Register </h3> </div>
+               <div class="modal-body">
+                  <form>
+                    <input type="text" placeholder="Fullname" class="form-control">
+                    <input type="email"placeholder="Email ID" class="form-control">
+                    <input type="password" placeholder="Password" class="form-control">
+                    <input type="tel" placeholder="Contact" class="form-control">
+                    <button class="btn btn-success> Register </button>
+                  </form> 
+               </div>
+                 <div class="modal-footer"> <button class="btn btn-danger" data-dismiss="modal"> Close </button> </div>
+         </div>
+     </div>
+  
+</div>
+
+
+
+
+
+
+<!-- end of Register Modal -->
+
+
+
+
+<!-- Login Modal -->
+
+<div class="modal" id="loginmodal">
+     <div class= "modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header"> <h3> Login </h3> </div>
+               <div class="modal-body">
+                  <form>
+                    <input type="email"placeholder="Email ID" class="form-control">
+                    <input type="password" placeholder="Password" class="form-control">
+                    <button class="btn btn-success> Login </button>
+                  </form> 
+
+
+
+               </div>
+                 <div class="modal-footer"> <button class="btn btn-danger" data-dismiss="modal"> Close </button> </div>
+         </div>
+     </div>
+  
+</div>
+
+
+<!-- end of hero section -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+ </body>
+ <html/>
